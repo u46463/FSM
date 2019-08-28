@@ -1,0 +1,65 @@
+URL: https://fse-na-sb-int01.cloud.clicksoftware.com/so/api/Services/Integration/ServiceOptimization/ExecuteMultipleOperations
+
+JSON:
+{
+    "Operations": [
+        {
+            "Action": "CreateOrUpdate",
+            "Object": {
+                "@objectType": "PSMeter",
+                "@createOrUpdate": "true",
+		"ExternalRefID": "WO_7674563"
+                "MeterNumber": "1234",
+                "AcctRepName":"Cust Rep Name",
+                "AcctRepPhone":"781-272-5909",
+                "BillingUnit":"TestBilling",
+                "ChkMtrRead":123,
+                "CircuitName":"Test Circuit",
+                "CollectionActionCode":"Code1",
+                "CTRatioPri":"45:90",
+                "CuNbr":"LCD",
+                "CustomerAccountStatus":"Active",
+                "DemandReading":6789,
+                "DetailRemarks":"Remarks for Meter",
+                "DeviceID":"DeviceId-1234",
+                "DialPrefix" :"+1",
+                "DisconnectforNonPayment": "Yes",
+                "InstallationNumber": "123423459876",
+                "KwattMeterConstant":"0000",
+                "KwattMtrNbr":"6789-098766-456",
+                "LastTestDate":"2019-08-22T00:00:00",
+                "LightOnorOff":{"Name":"No"},
+    			"MaxMeterInfo":"Test Information",
+        		"Me13By":"Mark Johnsen",
+        		"Me13Date":"2019-08-22T00:00:00",
+        		"Me13ReasonLocation":"Test Location",
+    			"MeterLocationNCL":"New York",
+        		"MeterNo2":"Test Meter 2",
+        		"MeterRead2":5678,
+        		"MeterStatus":"Active",
+        		"MeterType":"Test Meter",
+        		"MtrConfig":"Test Configuration",
+        		"MtrPhone":"781-272-5919",
+        		"Mv90CustomerID":"Cust101",
+        		"NewMeter":"Yes",
+        		"NumberofDials":15,
+        		"OMSSubtype":"Installation",
+        		"PhonePw1":"781-385-5819",
+        		"PhonePw2":"781-986-2713",
+        		"PriReadingDate":"2019-08-06T00:00:00",
+        		"PrReading1":7899,
+        		"PrReading2":17654,
+        		"RateRevenueClassCode":"Rate Code 01",
+        		"ReaderInfo":"Test Info",
+        		"ReaderPw":"Test",
+        		"RecorderID":"Recorder01",
+        		"ServiceLineStatus":"Inactive",
+        		"SpecialCond":"None",
+        		"SpecialReq":"None"
+        
+            }
+        }
+    ],
+    "ContinueOnError": false,
+    "OneTransaction": true
+}

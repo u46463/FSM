@@ -1,0 +1,53 @@
+URL: https://fse-na-sb-int01.cloud.clicksoftware.com/so/api/Services/Integration/Schedule/ProcessTaskEx
+
+JSON:
+{
+"Task":{
+   "@objectType":"Task",
+   "@createOrUpdate":true,
+   "CallID":"Task-EFO-1",
+   "Number":1,
+   "ExternalRefID": "WO_7674563",
+   "EarlyStart": "2019-08-23T00:00:00",
+   "DueDate": "2019-08-29T23:59:00",
+   "OpenDate": "2019-08-29T23:59:00",
+   "AppointmentStart": "2019-08-23T08:00:00",
+   "AppointmentFinish": "2019-08-23T11:00:00",
+   "Area":{"Name":"Electric Field Operations"},
+   "Region":{"Name":"EFO-Northwest"},
+   "District":{"Name":"Howell Service Center"},
+   "Postcode": "48843",
+   "TaskTypeCategory":{"Name":"Maximo"},
+   "TaskType":{"Name":"CMVSMINS11"},
+   "Street": "1095 Lawson Drive",
+   "PSStreetPrefix": "Street Prefix",
+   "PSStreetNumber": "Street Number",
+   "PSStreetName": "Street Name",
+   "PSStreetSuffix": "Street Suffix",
+   "PSStreetCrossStreet1": "Cross Street 1",	
+   "PSStreetCrossStreet2": "Cross Street 2",
+   "City": "Howell",
+   "State":"MI",
+   "CountryID": "UNITED STATES",
+   "Latitude": "897348343",
+   "Longitude": "-938478374",
+   "RequiredEngineers": [
+    {"ID": "e44857", "District": {"Name": "Howell Service Center"}}],
+   "Customer":"Jane Doe",
+   "ContactName":"Jane",
+   "ContactPhoneNumber":"781-272-5903",
+   "CustomerEmail":"jane.doe@gmail.com",
+   "PSCreatedBy": "John",
+   "PSAppointmentType": "AM",
+   "PSSiteID": "N8787678",
+   "PSGridNumber": "87874893",
+   "PSBusinessUnit": "Business Unit",
+   "PSCustomerAlternateNumber": "989-829-3223",
+   "PSDefaultAccounting": "Default Accounting",
+   "PSMeter":{"ExternalRefID": "WO_7674563"}
+},
+"ReturnAssignment": true,
+  "TaskRequestedProperties": ["Key","CallID", "Number", "ExternalRefID"],
+  "AssignmentRequestedProperties": ["Task", "Start", "Finish", "Engineers"],
+  "ReturnSchedulingError": true
+}
